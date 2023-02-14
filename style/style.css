@@ -42,3 +42,9 @@
     text-align: center;
 }
 
+body{
+    background-image: url('../img/67660.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
