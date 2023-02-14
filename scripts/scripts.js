@@ -12,3 +12,17 @@ function animateHeart() {
 }
 
 animateHeart();
+
+// on click add and remove class
+heart.addEventListener('click', function() {
+  heart.classList.add('hide');
+  document.querySelector('.container').classList.add('show');
+  document.querySelector('.showheart').classList.add('show');
+});
+
+// on click remove class
+document.querySelector('.showheart').addEventListener('click', function() {
+  heart.classList.remove('hide');
+  document.querySelector('.container').classList.remove('show');
+  document.querySelector('.showheart').classList.remove('show');
+});
